@@ -1,0 +1,40 @@
+img {
+    border-color: rgb(76, 0, 255);
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 50%;
+    
+}
+
+th{
+    color: rgb(8, 16, 160);
+    border-color: rgb(114, 2, 252);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50;
+    background-color: aqua;
+}
+
+td{
+    color: rgb(8, 16, 160);
+    border-color: rgb(114, 2, 252);;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50;
+    background-color: rgb(1, 82, 82);
+}
+a{
+    color: rgb(8, 16, 160);
+}
+ul{
+     border-color: rgb(114, 2, 252);;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50;
+}
+table{
+    border-color: rgb(114, 2, 252);;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50;
+}
