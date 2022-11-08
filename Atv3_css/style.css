@@ -4,7 +4,6 @@ img {
     border-style: solid;
     border-radius: 50%;
     margin: 100px 100px 100px 100px;
-
 }
 
 th {
@@ -13,7 +12,6 @@ th {
     border-width: 5px;
     border-style: solid;
     background-color: rgb(255, 255, 255);
-    
 }
 
 td {
@@ -21,7 +19,7 @@ td {
     border-color: rgb(0, 0, 0);
     border-width: 5px;
     border-style: solid;
-    background-color:rgba(112, 2, 2, 0.82);
+    background-color: rgba(112, 2, 2, 0.82);
 }
 
 a {
@@ -40,14 +38,15 @@ table {
     border-width: 5px;
     border-style: solid;
 }
-div{
+
+div {
     border-color: rgb(0, 0, 0);
     border-width: 5px;
     border-style: solid;
     background-color: rgba(112, 2, 2, 0.82);
 }
 
-header{
+header {
     border-radius: 20px;
     width: 1500px;
     height: 250px;
@@ -59,14 +58,16 @@ header{
     z-index: 1;
     top: 0;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: center;
     border-width: 0px;
 }
-.img_class{
+
+.img_class {
     width: 150px;
     height: 150px;
     margin: 0px;

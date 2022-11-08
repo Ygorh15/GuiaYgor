@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <title>Título da página</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            <link rel="stylesheet" href="style.css">
+        </head>
+
+        <body>
+            
+            <div class="alert alert-danger" role="alert">
+             Lembre de preencher todos os campos!
+            </div>
+                <form>
+                    <div class="form-row">
+                    <div class="col-md-4 mb-3">
+                        <label for="validationDefault01">Primeiro nome</label>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="Nome" value="Mark" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationDefault02">Sobrenome</label>
+                        <input type="text" class="form-control" id="validationDefault02" placeholder="Sobrenome" value="Otto" required>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <label for="validationDefaultUsername">Usuário</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend2">@</span>
+        </div>
+        <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend2" required>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationDefault03">Cidade</label>
+      <input type="text" class="form-control" id="validationDefault03" placeholder="Cidade" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationDefault04">Estado</label>
+      <input type="text" class="form-control" id="validationDefault04" placeholder="Estado" required>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationDefault05">CEP</label>
+      <input type="text" class="form-control" id="validationDefault05" placeholder="CEP" required>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        Concordo com os termos e condições
+      </label>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Enviar</button>
+</form>
+                
+</div>
+<div class="container-carousel">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="https://cdn.shopify.com/s/files/1/0624/5308/8456/products/SKU-05-996.jpg?v=1662586785" alt="Primeiro Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="data:image/jpeg;base64,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" alt="Segundo Slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcpbZBF2duPoL_5csbyoK5fnYvSpnwSV6XDA&usqp=CAU" alt="Terceiro Slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Próximo</span>
+  </a>
+</div>
+</div>
+
+        </body>
+    </html>
