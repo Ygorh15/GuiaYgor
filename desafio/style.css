@@ -1,0 +1,81 @@
+header {
+    border-radius: 20px;
+    width: 3000px;
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: red;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    border-width: 0px;
+}    
+
+.banner{
+    background-image:url(./imagens/imagem-fundo-banner.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    align-items: left;
+    border-width: 150px;
+}
+
+.button{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    justify-content: center;
+    padding: 30px;
+}
+.imgheader{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.div_header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+footer{
+    background-color: red;
+     display: flex;
+    justify-content: center;
+    flex-direction: center;
+}
+
+section{
+    background-image: url(./imagens/imagem-fundo-info.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+h3{
+    color: rgb(255, 255, 255);
+}
+.texto-sobre{
+    color: rgb(255, 255, 255);
+}
